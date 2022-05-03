@@ -1,1 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2022-05-03T13:27:18.912Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" version="17.5.0" etag="Rdl-2QK9cQQG478ES_hh" type="github"><diagram id="cfFKPw1QqzSCwcJOlOwH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-03T13:27:38.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="1Xq5cCuYHWaHU9PQ92HT" version="17.5.0" type="github">
+  <diagram id="cfFKPw1QqzSCwcJOlOwH" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="miaNtd-vHZGhKOpsRGvh-2" target="miaNtd-vHZGhKOpsRGvh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-2" value="App、PC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="miaNtd-vHZGhKOpsRGvh-4" target="miaNtd-vHZGhKOpsRGvh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-4" value="WebServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="miaNtd-vHZGhKOpsRGvh-7" target="miaNtd-vHZGhKOpsRGvh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="miaNtd-vHZGhKOpsRGvh-7" target="miaNtd-vHZGhKOpsRGvh-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-7" value="agent" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="190" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="miaNtd-vHZGhKOpsRGvh-9" target="miaNtd-vHZGhKOpsRGvh-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-9" value="HDFS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="190" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-10" value="hadoop/access/xx.log&lt;br&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="594" y="164" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-11" value="Source&lt;br&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="388" y="183" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-12" value="Sink&lt;br&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="580" y="184" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="miaNtd-vHZGhKOpsRGvh-14" target="miaNtd-vHZGhKOpsRGvh-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-14" value="HBASE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="310" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-15" value="使用Spark进行数据清洗&amp;nbsp; 一天处理一次" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="670" y="245" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-16" value="一个批次就是处理一天的数据" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="675" y="270" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-17" value="一天一个Spark作业，如何定时执行呢？&lt;br&gt;1）crontab：使用脚本提交Spark-submit&lt;br&gt;2）Azkaban&lt;br&gt;3）Oozie" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="801" y="156" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-18" value="Hbase 中每天一个表：log_yyyyMMdd&lt;br&gt;每次使用Spark将清洗完的数据落地到Hbase每天的表中" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="724" y="315" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-19" value="DB" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="425" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="miaNtd-vHZGhKOpsRGvh-19" target="miaNtd-vHZGhKOpsRGvh-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-21" value="使用Spark进行业务逻辑统计分析&lt;br&gt;1）代码&lt;br&gt;2）SQL" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="665" y="360" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="miaNtd-vHZGhKOpsRGvh-24" target="miaNtd-vHZGhKOpsRGvh-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="miaNtd-vHZGhKOpsRGvh-24" target="miaNtd-vHZGhKOpsRGvh-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-24" value="UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="510" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-25" value="使用Spark将业务逻辑统计结果输出到数据库" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="702" y="440" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-26" value="从分析结果库中根据条件获得结果，并通过前台页面展示" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="675" y="483" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-27" value="Kafka：消息队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="310" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-28" value="Sink" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="480" y="255" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-29" value="/var/log/access.log&lt;br&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="300" y="245" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="miaNtd-vHZGhKOpsRGvh-32" target="miaNtd-vHZGhKOpsRGvh-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="miaNtd-vHZGhKOpsRGvh-32" target="miaNtd-vHZGhKOpsRGvh-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-32" value="SparkStreaming" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="430" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-33" value="Dircet模式去kafka中获取数据进行消费" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="280" y="390" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="miaNtd-vHZGhKOpsRGvh-34" value="DB" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="505" width="70" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
