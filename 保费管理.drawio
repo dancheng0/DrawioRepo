@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2022-10-08T07:31:34.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" version="20.0.4" etag="MEmjXsj-h50NBDRLv7fG" type="github"><diagram id="_m5MdlkcJ6gGwVKdpCUm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-08T07:49:33.385Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" etag="8t3ZnLXEuktYeJnR2nl1" version="20.0.4" type="github">
+  <diagram id="_m5MdlkcJ6gGwVKdpCUm" name="第 1 页">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uzR7RSsxnNS5FgNO0Bto-1" value="保费管理" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="680" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="uzR7RSsxnNS5FgNO0Bto-2" value="&lt;b&gt;保费管理&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="350" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uzR7RSsxnNS5FgNO0Bto-3" value="&lt;b&gt;再担保管理&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="450" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uzR7RSsxnNS5FgNO0Bto-4" value="&lt;b&gt;退费管理&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="345" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uzR7RSsxnNS5FgNO0Bto-5" value="&lt;b&gt;保费管理&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="240" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uzR7RSsxnNS5FgNO0Bto-6" value="&lt;b&gt;保费管理&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="670" y="350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uzR7RSsxnNS5FgNO0Bto-7" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uzR7RSsxnNS5FgNO0Bto-2" target="uzR7RSsxnNS5FgNO0Bto-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="220" y="300" as="sourcePoint" />
+            <mxPoint x="380" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uzR7RSsxnNS5FgNO0Bto-8" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="uzR7RSsxnNS5FgNO0Bto-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="250" y="390" as="sourcePoint" />
+            <mxPoint x="410" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uzR7RSsxnNS5FgNO0Bto-9" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="uzR7RSsxnNS5FgNO0Bto-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="250" y="390" as="sourcePoint" />
+            <mxPoint x="350" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uzR7RSsxnNS5FgNO0Bto-10" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="uzR7RSsxnNS5FgNO0Bto-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="490" y="280" as="sourcePoint" />
+            <mxPoint x="650" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="310" />
+              <mxPoint x="650" y="360" />
+              <mxPoint x="630" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uzR7RSsxnNS5FgNO0Bto-11" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="490" y="380" as="sourcePoint" />
+            <mxPoint x="650" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uzR7RSsxnNS5FgNO0Bto-12" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="uzR7RSsxnNS5FgNO0Bto-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="490" y="485" as="sourcePoint" />
+            <mxPoint x="650" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
